@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://images.pexels.com/photos/5496464/pexels-photo-5496464.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* Ajusta según sea necesario */
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7c7874; 
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 150px; /* Ajusta este valor según tus necesidades */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #fffaf2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #241a06;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    background-color: #7c7874; 
+    border-radius: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.contenedor-desarrolladores {
+    position: absolute;
+    top: 150px; /* Ajusta este valor según tus necesidades */
+    left: 0;
+    bottom: 0;
+}
+
+.desarrollador {
+    float: left;
+    flex: 1;
+    padding: 0.5rem;
+    margin-left: 150px;
+    background-color: #7c7874;
+    border-radius: 1rem;
+}
+
+.desarrollador2 {
+    float: right;
+    clear: right;
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 150px;
+    background-color: #7c7874;
+    border-radius: 1rem;
+}
+
+
+.color1 {color: #d1b391;}
+.color2 {color: #d9d9b7;}
+.color3 {color: #241a06;}
+.color4 {color: #7c7874;}
+.color5 {color: #e5e5e5;}
